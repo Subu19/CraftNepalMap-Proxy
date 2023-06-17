@@ -7,7 +7,7 @@ const app = express();
 app.use(
   "/",
   createProxyMiddleware({
-    target: "http://play.craftnepal.net:8169/",
+    target: "http://play.craftnepal.net:8080/",
     changeOrigin: true,
   })
 );
